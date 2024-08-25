@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using api.Dtos.Comment;
 using api.Interfaces;
 using api.Mappers;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace api.Controllers
